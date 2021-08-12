@@ -121,7 +121,7 @@ VALUES
 
 INSERT INTO Employees(first_name, surname, gender, address, email, department_id, role_id, salary_id, overtime_id)
 VALUES
-('Fabio','Pita','M','255 7th Avenue Bezuidenhout Valley, MN 55060','keagan.dods@gmail.com',1,1,18,21),
+('Fabio','Pita','M','255 7th Avenue Bezuidenhout Valley, MN 55060','fabiopita@gmail.com',1,1,18,19),
 ('Darryl','Krause','M','799 Baker Avenue Arlington, TX 76011','DarrylLKrause@rhyta.com',1,2,17,20),
 ('Freddie','Sweeny','M','2544 Short Street Austin, TX 78701','FreddieDSweeny@armyspy.com',1,3,16,19),
 ('Damaris','Kimball','F','4617 Nash Street Southfield, MI 48075','DamarisHKimball@teleworm.us',2,4,15,18),
@@ -145,7 +145,7 @@ SELECT
 	Employees.surname, 
 	Employees.gender, 
 	Employees.address, 
-	Employees.email ,
+	Employees.email,
 	Department.department_name, 
 	Department.department_city,
 	Roles.role_name,
